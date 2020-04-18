@@ -1,3 +1,9 @@
-name= "grisel"
+input_name = input("What's your name?\n")
 
-print('Hi ' + name)
+
+def hello(name):
+    print("hello! " + name)
+
+
+print('Hi ' + input_name)
+hello(input_name)
